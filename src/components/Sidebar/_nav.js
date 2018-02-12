@@ -46,12 +46,16 @@ export default {
       url: '/theme/brand',
     },
     {
-      name: 'Colors',
+      name: 'Colour',
       url: '/theme/colors',
     },
     {
       name: 'Typography',
       url: '/theme/typography',
+    },
+    {
+      name: 'Motion',
+      url: '/theme/motion',
     },
     {
       divider: true,

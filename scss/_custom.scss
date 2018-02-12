@@ -2,7 +2,7 @@
 
 // Headers
 .standard-header {
-    padding: 5rem 0 3rem;
+    padding: 5rem 0 3.875rem;
     h1 {
         font-size: 3.5rem;
         line-height: 4.125rem;
@@ -39,13 +39,37 @@
 .nav {
     .divider {
         border-bottom: 1px solid $lightest-grey;
-        margin: 2rem 2rem;
+        margin: 2rem;
     }
 } 
 .sidebar {
     border-right: 1px solid $lightest-grey;
+    .sidebar-nav {
+        padding: 1.5rem 0;
+        .nav-item {
+            margin: 0 1rem;
+            .nav-link {
+                border-radius: 28px;
+                i {
+                    display: none;
+                }
+                &.active {
+                    font-weight: 600;
+                    color: $bga-primary;
+                }
+            }
+        }
+    }
     .nav-title {
         font-size: 1rem;
         text-transform: none;
+    }
+    .nav-dropdown-items {
+        .nav-item {
+            padding: 0;
+            .nav-link {
+                border-radius: 28px;
+            }
+        }
     }
 }
