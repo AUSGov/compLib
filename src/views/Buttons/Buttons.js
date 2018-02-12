@@ -9,16 +9,17 @@ class Buttons extends Component {
           <Col>
             <div className="standard-header">
               <h1>Buttons</h1>
-              <div className="version">Last update: 07/02/2018</div>
+              <div className="version"><span><i className="fa fa-clock-o fa-lg"></i> </span>Last update: 09/02/2018</div>
             </div>
           </Col>
         </Row> 
+
         <Row>
           <Col>            
-            <div className="bodyText">
-              <p>Use buttons and links to trigger actions. Buttons can contain a combination of a clear label and an <a href="/icons">icon</a> while links are always text.</p>
+            <div className="content">
+              <p>Buttons communicate the action that will occur when the user touches them. Use buttons to trigger actions. Buttons can contain a combination of a clear label and an <a href="/icons">icon</a>. There are different types of buttons for different types of actions and it is important to use the correct one for the action.</p>
               <h2>Button types</h2>
-              <h3>Primary button</h3>
+              <p>There are three main types of buttons...</p>
               <Button color="primary">primary</Button>{' '}
             </div>
           </Col>

@@ -2,9 +2,50 @@
 
 // Headers
 .standard-header {
-    padding: 5rem 0;
+    padding: 5rem 0 3rem;
     h1 {
         font-size: 3.5rem;
-        color: $bga-blue;
+        line-height: 4.125rem;
+        color: $bga-primary;
+    }
+    .version {
+        font-size: .875rem;
+        color: $bga-primary;
+        span {
+            color: $bga-primary-interactive;
+        }
+    }
+}
+
+.content {
+    h2 {
+        padding-top: 2rem;
+        margin-bottom: 1.5rem;
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .animated {
+        padding-left: 5rem;
+        padding-right: 5rem;
+        max-width: 1024px;
+    }
+}
+
+.app-header.navbar {
+    border-top: 4px solid $bga-primary;
+    border-bottom: 1px solid $lightest-grey;
+}
+.nav {
+    .divider {
+        border-bottom: 1px solid $lightest-grey;
+        margin: 2rem 2rem;
+    }
+} 
+.sidebar {
+    border-right: 1px solid $lightest-grey;
+    .nav-title {
+        font-size: 1rem;
+        text-transform: none;
     }
 }

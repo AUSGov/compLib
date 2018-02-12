@@ -104,11 +104,11 @@ class Sidebar extends Component {
         <NavItem key={key} className={classes.item}>
           { isExternal(url) ?
             <RsNavLink href={url} className={classes.link} active>
-              <i className={classes.icon}></i>{item.name}{badge(item.badge)}
+              {/*<i className={classes.icon}></i>*/}{item.name}{badge(item.badge)}
             </RsNavLink>
             :
             <NavLink to={url} className={classes.link} activeClassName="active" onClick={this.hideMobile}>
-              <i className={classes.icon}></i>{item.name}{badge(item.badge)}
+              {item.name}{badge(item.badge)}
             </NavLink>
           }
         </NavItem>
@@ -119,7 +119,7 @@ class Sidebar extends Component {
     const navDropdown = (item, key) => {
       return (
         <li key={key} className={this.activeRoute(item.url, props)}>
-          <a className="nav-link nav-dropdown-toggle" href="#" onClick={this.handleClick}><i className={item.icon}></i>{item.name}</a>
+          <a className="nav-link nav-dropdown-toggle" href="#" onClick={this.handleClick}>{item.name}</a>
           <ul className="nav-dropdown-items">
             {navList(item.children)}
           </ul>

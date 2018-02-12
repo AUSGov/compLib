@@ -11,12 +11,35 @@ export default {
     // },
     {
       title: true,
-      name: 'FOUNDATIONS',
+      name: 'Design at BGA',
       wrapper: {            // optional wrapper object
         element: '',        // required valid HTML5 element tag
         attributes: {}        // optional valid JS object with JS API naming ex: { className: "my-class", style: { fontFamily: "Verdana" }, id: "my-id"}
       },
       class: ''             // optional class names space delimited list for title item ex: "text-center"
+    },
+    {
+      name: 'Who we are',
+      url: '#',
+    },
+    {
+      name: 'Tone of voice',
+      url: '#',
+    },
+    {
+      name: 'Design principles',
+      url: '#',
+    },
+    {
+      divider: true,
+    },
+    {
+      title: true,
+      name: 'Styles',
+      wrapper: {
+        element: '',
+        attributes: {}
+      },
     },
     {
       name: 'Brand',
@@ -29,6 +52,9 @@ export default {
     {
       name: 'Typography',
       url: '/theme/typography',
+    },
+    {
+      divider: true,
     },
     {
       title: true,

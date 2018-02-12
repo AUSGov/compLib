@@ -1,18 +1,104 @@
 // core overrides
 
-// Colors
+// ---------------- COLOURS ---------------- //
 
-$bga-blue:                              #254f90;
-$background-grey:                       #F5F5F5;
-$dark-grey:                             #484848;
+// --- Brand Colours --- //
+
+// BGA Primary
+$bga-primary:                       #254f90;
+$bga-primary-interactive:           #4c6fa4;
+$bga-primary-tint1:                 #b3c2d8;
+$bga-primary-tint2:                 #eff4fb;
+
+// BGA Secondary
+$bga-secondary:                     #e8bd4f;
+$bga-secondary-interactive:         #edca72;
+$bga-secondary-tint1:               #f3dea7;
+$bga-secondary-tint2:               #fcf4e3;
+
+
+// --- Category Colours --- //
+
+// Teal
+$teal:                              #29a0a0;
+$teal-interactive:                  #54b3b3;
+$teal-tint1:                        #a9d9d9;
+$teal-tint2:                        #dff1f1;
+
+// Blue
+$blue:                              #3e96ff;
+$blue-interactive:                  #5ba6ff;
+$blue-tint1:                        #bedcff;
+$blue-tint2:                        #ebf4ff;
+
+// Orange
+$orange:                            #ff4b23;
+$orange-interactive:                #ff6f4f;
+$orange-tint1:                      #ffb7a7;
+$orange-tint2:                      #ffe4de;
+
+// Slate
+$slate:                             #293f5c;
+$slate-interactive:                 #495c74;
+$slate-tint1:                       #aab2c3;
+$slate-tint2:                       #dfe2ee;
+
+// Purple
+$purple:                            #5b43d0;
+$purple-interactive:                #735fd7;
+$purple-tint1:                      #bdb4ec;
+$purple-tint2:                      #f1eefa;
+
+// Magenta
+$magenta:                           #a42079;
+$magenta-interactive:               #b64d94;
+$magenta-tint1:                     #dfb1d0;
+$magenta-tint2:                     #ffecf3;
+
+
+// -- Neutrals -- //
+
+// Greys
+$darkest-grey:                      #505050;
+$darker-grey:                       #7d7d7d;
+$dark-grey:                         #a7a7a7;
+$light-grey:                        #c7c7c7;
+$lighter-grey:                      #d8d8d8;
+$lightest-grey:                     #ebebeb;
+$background-grey:                   #f5f5f5;
+
+// Blues
+$header-bg:                         #f0f4fa;
+
+
+// --- Alerts --- //
+
+// Good
+$green:                             #368635;
+$green-interactive:                 #219520;
+$green-tint1:                       #a6d5a6;
+$green-tint2:                       #e8f4e8;
+
+// Not so good
+$red:                               #e22c2a;
+$red-interactive:                   #e75755;
+$red-tint1:                         #f5b5b5;
+$red-tint2:                         #fce9e9;                      
+
+
+// --- Text --- //
+$matte-text:                         #383838;
+
+
+
 
 
 // Navbar
 
-$navbar-height:                       72px;
-$navbar-bg:                           $bga-blue;
+$navbar-height:                       76px;
+$navbar-bg:                           $white;
 $navbar-brand-width:                  292px;
-$navbar-brand-bg:                     $bga-blue;
+$navbar-brand-bg:                     $white;
 $navbar-brand-logo:                   url('../img/logo-white.svg');
 $navbar-brand-logo-size:              202px auto;
 $navbar-padding-y:                    1.375rem;  
@@ -22,13 +108,13 @@ $navbar-padding-x:                    1.375rem;
 // Sidebar
 
 $sidebar-width:                       292px;
-$sidebar-padding:                     0 !default;
+$sidebar-padding:                     1.5rem 0 0 0;
 $sidebar-minimized-width:             50px !default;
 $sidebar-minimized-height:            $sidebar-minimized-width !default;
 $sidebar-compact-width:               150px !default;
 $sidebar-compact-height:              $sidebar-compact-width !default;
-$sidebar-color:                       $dark-grey;
-$sidebar-bg:                          $background-grey;
+$sidebar-color:                       $matte-text;
+$sidebar-bg:                          $white;
 $sidebar-borders:                     none !default;
 $mobile-sidebar-width:                292px;
 
@@ -37,7 +123,7 @@ $mobile-sidebar-width:                292px;
 $sidebar-header-height:               auto !default;
 $sidebar-header-bg:                   rgba(0,0,0,.2) !default;
 $sidebar-header-padding-y:            .75rem !default;
-$sidebar-header-padding-x:            1rem !default;
+$sidebar-header-padding-x:            2rem;
 
 // Sidebar Form
 
@@ -48,23 +134,23 @@ $sidebar-form-placeholder-color:      rgba(255,255,255,.7) !default;
 
 // Sidebar Navigation
 
-$sidebar-nav-color:                   $dark-grey;
+$sidebar-nav-color:                   $matte-text;
 $sidebar-nav-title-padding-y:         .75rem !default;
-$sidebar-nav-title-padding-x:         1rem !default;
-$sidebar-nav-title-color:             $dark-grey;
+$sidebar-nav-title-padding-x:         2rem;
+$sidebar-nav-title-color:             $matte-text;
 $sidebar-nav-link-padding-y:          .75rem !default;
-$sidebar-nav-link-padding-x:          1rem !default;
-$sidebar-nav-link-color:              $dark-grey;
+$sidebar-nav-link-padding-x:          2rem;
+$sidebar-nav-link-color:              $matte-text;
 $sidebar-nav-link-bg:                 transparent !default;
 $sidebar-nav-link-icon-color:         $gray-600 !default;
 $sidebar-nav-link-borders:            0 !default;
 
-$sidebar-nav-link-hover-color:        $bga-blue;
+$sidebar-nav-link-hover-color:        $bga-primary;
 $sidebar-nav-link-hover-bg:           #e2ecf6;
 $sidebar-nav-link-hover-icon-color:   #fff !default;
 $sidebar-nav-link-hover-borders:      0 !default;
 
-$sidebar-nav-link-active-color:       $dark-grey;
+$sidebar-nav-link-active-color:       $matte-text;
 $sidebar-nav-link-active-bg:          #e2ecf6;
 $sidebar-nav-link-active-icon-color:  theme-color("primary") !default;
 $sidebar-nav-link-active-borders:     0 !default;
@@ -82,7 +168,7 @@ $sidebar-nav-dropdown-indicator-hover:str-replace(url("data:image/svg+xml;charse
 $sidebar-footer-height:               auto !default;
 $sidebar-footer-bg:                   rgba(0,0,0,.2) !default;
 $sidebar-footer-padding-y:            .75rem !default;
-$sidebar-footer-padding-x:            1rem !default;
+$sidebar-footer-padding-x:            2rem;
 $sidebar-footer-borders:              0 !default;
 
 // Sidebar Minimizer
