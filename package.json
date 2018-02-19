@@ -1,10 +1,10 @@
 {
-  "name": "@coreui/react",
+  "name": "bga-design-system",
   "version": "1.0.9",
-  "description": "Open Source Bootstrap Admin Template",
-  "author": "Łukasz Holeczek",
-  "homepage": "http://coreui.io",
-  "copyright": "Copyright 2017 creativeLabs Łukasz Holeczek",
+  "description": "BA Design System Component Library",
+  "author": "Joey Sephora",
+  "homepage": "https://business.gov.au",
+  "copyright": "Copyright 2018 Commonwealth of Australia",
   "license": "MIT",
   "private": true,
   "devDependencies": {

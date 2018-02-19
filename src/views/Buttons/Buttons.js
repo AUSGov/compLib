@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Row, Col, Card, CardHeader, CardBody, Button} from 'reactstrap';
+import PageHeader from '../../components/PageHeader/';
 
 class Buttons extends Component {
   render() {
@@ -7,10 +8,7 @@ class Buttons extends Component {
       <div className="animated fadeIn">
         <Row>
           <Col>
-            <div className="standard-header">
-              <h1>Buttons</h1>
-              <div className="version"><span><i className="fa fa-clock-o fa-lg"></i> </span>Last update: 09/02/2018</div>
-            </div>
+            <PageHeader heading="Buttons" date="15/02/2018" />
           </Col>
         </Row> 
 
@@ -30,3 +28,4 @@ class Buttons extends Component {
 }
 
 export default Buttons;
+

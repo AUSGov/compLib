@@ -6,8 +6,10 @@ import Sidebar from '../../components/Sidebar/';
 import Breadcrumb from '../../components/Breadcrumb/';
 import Aside from '../../components/Aside/';
 import Footer from '../../components/Footer/';
-
+import PageHeader from '../../components/PageHeader/';
 import Dashboard from '../../views/Dashboard/';
+
+import DesignPrinciples from '../../views/DesignPrinciples/';
 
 import Colors from '../../views/Theme/Colors/';
 import Typography from '../../views/Theme/Typography/';
@@ -62,6 +64,7 @@ class Full extends Component {
             <Container fluid>
               <Switch>
                 <Route path="/dashboard" name="Dashboard" component={Dashboard}/>
+                <Route path="/designprinciples" name="Design Principles" component={DesignPrinciples}/>
                 <Route path="/theme/colors" name="Colors" component={Colors}/>
                 <Route path="/theme/typography" name="Typography" component={Typography}/>
                 <Route path="/base/cards" name="Cards" component={Cards}/>

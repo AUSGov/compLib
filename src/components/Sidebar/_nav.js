@@ -28,7 +28,7 @@ export default {
     },
     {
       name: 'Design principles',
-      url: '#',
+      url: '/designprinciples',
     },
     {
       divider: true,
@@ -229,14 +229,14 @@ export default {
       name: 'Pages',
       url: '/pages',
       children: [
-        // {
-        //   name: 'Login',
-        //   url: '/login',
-        // },
-        // {
-        //   name: 'Register',
-        //   url: '/register',
-        // },
+        {
+          name: 'Login',
+          url: '/login',
+        },
+        {
+          name: 'Register',
+          url: '/register',
+        },
         {
           name: 'Error 404',
           url: '/404',
