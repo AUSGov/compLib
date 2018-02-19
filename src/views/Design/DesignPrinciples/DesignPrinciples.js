@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Row, Col, Card, CardHeader, CardBody, Button} from 'reactstrap';
-import PageHeader from '../../components/PageHeader/';
+import PageHeader from '../../../components/PageHeader/';
 
 
 class DesignPrinciples extends Component {

@@ -24,7 +24,7 @@ const routes = {
   '/buttons/button-groups': 'Button Groups',
   '/charts': 'Charts',
   '/dashboard': 'Dashboard',
-  '/designprinciples': 'DesignPrinciples', 
+  '/design/designprinciples': 'DesignPrinciples', 
   '/icons': 'Icons',
   '/icons/flags': 'Flags',
   '/icons/font-awesome': 'Font Awesome',
@@ -36,6 +36,7 @@ const routes = {
   '/theme': 'Theme',
   '/theme/colors': 'Colors',
   '/theme/typography': 'Typography',
+  '/design/toneofvoice': 'ToneOfVoice',
   '/widgets': 'Widgets'
 };
 export default routes;

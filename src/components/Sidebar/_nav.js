@@ -24,11 +24,11 @@ export default {
     },
     {
       name: 'Tone of voice',
-      url: '#',
+      url: '/design/toneofvoice',
     },
     {
       name: 'Design principles',
-      url: '/designprinciples',
+      url: '/design/designprinciples',
     },
     {
       divider: true,

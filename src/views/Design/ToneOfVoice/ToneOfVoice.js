@@ -2,13 +2,14 @@ import React, {Component} from 'react';
 import {Row, Col, Card, CardHeader, CardBody, Button} from 'reactstrap';
 import PageHeader from '../../../components/PageHeader/';
 
-class Colors extends Component {
+
+class ToneOfVoice extends Component {
   render() {
     return (
       <div className="animated fadeIn">
         <Row>
           <Col>
-            <PageHeader heading="Colour" date="19/02/2018" />
+            <PageHeader heading="Tone of Voice" date="19/02/2018" />
           </Col>
         </Row> 
 
@@ -24,5 +25,4 @@ class Colors extends Component {
   }
 }
 
-export default Colors;
-
+export default ToneOfVoice;
