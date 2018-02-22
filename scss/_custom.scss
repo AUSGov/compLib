@@ -5,6 +5,7 @@
     padding: 5rem 0 3.875rem;
     h1 {
         font-size: 3.5rem;
+        font-weight: 600;
         line-height: 4.125rem;
         color: $bga-primary;
     }
@@ -17,10 +18,20 @@
     }
 }
 
+// Content
 .content {
     h2 {
+        font-size: 1.250rem;
+        font-weight: 600;
+        letter-spacing: 0.2px;
         padding-top: 2rem;
         margin-bottom: 1.5rem;
+    }
+    .intro {
+        font-size: 1.250rem;
+    }
+    .demo-block {
+        padding: 2rem 0;
     }
 }
 
@@ -32,6 +43,7 @@
     }
 }
 
+// Nav
 .app-header.navbar {
     border-top: 4px solid $bga-primary;
     border-bottom: 1px solid $lightest-grey;
@@ -45,7 +57,7 @@
 .sidebar {
     border-right: 1px solid $lightest-grey;
     .sidebar-nav {
-        padding: 1.5rem 0;
+        padding: 2.5rem 0;
         .nav-item {
             margin: 0 1rem;
             .nav-link {

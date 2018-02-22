@@ -15,10 +15,14 @@ class Buttons extends Component {
         <Row>
           <Col>            
             <div className="content">
-              <p>Buttons communicate the action that will occur when the user touches them. Use buttons to trigger actions. Buttons can contain a combination of a clear label and an <a href="/icons">icon</a>. There are different types of buttons for different types of actions and it is important to use the correct one for the action.</p>
-              <h2>Button types</h2>
-              <p>There are three main types of buttons...</p>
-              <Button color="primary">primary</Button>{' '}
+              <p className="intro">A wide range of button styles are used across the website. Appropriate button styles are to be used based on context and level of importance.</p>
+
+              <h2>Primary button styles</h2>
+              <p>Use of primary buttons is reserved for for the primary action on the page. For example, a page that encourages users to give feedback would reserve the primary button for a ‘Message us’ action.</p>
+              
+              <div className="demo-block">
+                <Button className="btn btn-primary">Find out more</Button>{' '}
+              </div>
             </div>
           </Col>
         </Row>          
