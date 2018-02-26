@@ -24,10 +24,35 @@ class Buttons extends Component {
                 <Button className="bga-btn btn-primary">Find out more</Button>{' '}
               </div>
               <hr></hr>
+
               <h3>Variations</h3>
               <div className="demo-block">
                   <Button className="bga-btn btn-primary">Primary with icon <i className="fa fa-star"></i>{'\u00A0'}</Button>
+                  <Button aria-disabled="true" className="bga-btn btn-primary" disabled>Disabled state</Button>
+                  <br/>
+                  <Button className="bga-btn btn-primary btn-lg btn-block">Full width button</Button>
               </div>
+              <hr></hr>
+
+              <h2>Default button styles</h2>
+              <p>Default button styles are used for strong call to actions but sit on a level below primary button styles in terms of importance.</p>
+
+              <div className="demo-block">
+                <Button className="bga-btn btn-default">Find out more</Button>{' '}
+              </div>
+              <hr></hr>
+              
+              <h3>Variations</h3>
+              <div className="demo-block">
+                  <Button className="bga-btn btn-default">Find out more</Button>{' '}
+                  <Button className="bga-btn btn-default">Download <i className="fa fa-download"></i></Button>
+                  <Button aria-disabled="true" className="bga-btn btn-default" disabled>Disabled state</Button>
+                  <br/>
+                  <Button className="bga-btn btn-default btn-lg btn-block">Full width button</Button>
+              </div>
+
+              <hr></hr>
+
             </div>
           </Col>
         </Row>          
