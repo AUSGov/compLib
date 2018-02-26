@@ -27,6 +27,13 @@
         padding-top: 2rem;
         margin-bottom: 1.5rem;
     }
+    h3 {
+        font-size: 1.125rem;
+        font-weight: 600;
+        letter-spacing: 0.2px;
+        padding-top: 2rem;
+        margin-bottom: 1.5rem;
+    }
     .intro {
         font-size: 1.250rem;
     }
@@ -83,5 +90,88 @@
                 border-radius: 28px;
             }
         }
+    }
+}
+
+// Buttons
+
+.bga-btn {
+    color: $bga-primary;
+    background: transparent;
+    border: 1px solid transparent;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 0px;
+    line-height: 1;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    height: 48px;
+    &.btn-primary {
+        padding-right: 32px;
+        padding-left: 32px;
+        border-radius: 22px;
+        color: $white;
+        background: $bga-primary-interactive;
+        transition: all .4s ease;
+        &:hover {
+            background: $bga-primary;
+            transition: all ease 0.4s;
+            border: 1px solid #18335C;
+        }
+        &:focus {
+            box-shadow: 0 0 10px 0 $bga-primary-interactive;
+            background: $bga-primary;
+            transition: all ease 0.4s;
+        }
+        &:active {
+            background: $black;
+        }
+    }
+}
+.btn-primary:not(:disabled):not(.disabled):active {
+    background-color: $black;
+    color: $white;
+}
+.btn-link {
+    transition: all .3s ease;
+    color: $black;
+    line-height: 1.5;
+    .BgaIcon {
+        transition: all .3s ease;
+        fill: $black;
+        margin-right: 10px;
+    }
+    &:hover {
+        color: $bga-primary;
+        .BgaIcon {
+            fill: $bga-primary;
+        }
+    }
+}
+
+@keyframes toRightFromLeft {
+
+    30% {
+        transform: translate(30%);
+    }
+    31% {
+        opacity: 0;
+        transform: translate(-50%);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes toLeftFromRight {
+    30% {
+        transform: translate(-30%);
+    }
+    31% {
+        opacity: 0;
+        transform: translate(50%);
+    }
+    100% {
+        opacity: 1;
     }
 }

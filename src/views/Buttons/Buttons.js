@@ -21,7 +21,12 @@ class Buttons extends Component {
               <p>Use of primary buttons is reserved for for the primary action on the page. For example, a page that encourages users to give feedback would reserve the primary button for a ‘Message us’ action.</p>
               
               <div className="demo-block">
-                <Button className="btn btn-primary">Find out more</Button>{' '}
+                <Button className="bga-btn btn-primary">Find out more</Button>{' '}
+              </div>
+              <hr></hr>
+              <h3>Variations</h3>
+              <div className="demo-block">
+                  <Button className="bga-btn btn-primary">Primary with icon <i className="fa fa-star"></i>{'\u00A0'}</Button>
               </div>
             </div>
           </Col>
