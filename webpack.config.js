@@ -55,7 +55,7 @@ module.exports = (env = {}) => {
             use: [
               {
                 loader: 'css-loader',
-                options: {alias: {'../img': '../public/img'}}
+                options: {alias: {'../img': '../docs/img'}}
               },
               {
                 loader: 'sass-loader'
@@ -99,11 +99,11 @@ module.exports = (env = {}) => {
       new HtmlWebpackPlugin(
         {
           inject: true,
-          template: './public/index.html'
+          template: './docs/index.html'
         }
       ),
       new CopyWebpackPlugin([
-          {from: './public/img', to: 'img'}
+          {from: './docs/img', to: 'img'}
         ],
         {copyUnmodified: false}
       )
