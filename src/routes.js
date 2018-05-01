@@ -6,6 +6,7 @@ const routes = {
   '/base/switches': 'Switches',
   '/base/tables': 'Tables',
   '/base/tabs': 'Tabs',
+  '/base/body': 'Body',
   '/base/breadcrumbs': 'Breadcrumbs',
   '/base/carousels': 'Carousels',
   '/base/collapses': 'Collapses',

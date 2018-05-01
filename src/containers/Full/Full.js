@@ -24,6 +24,7 @@ import Forms from '../../views/Base/Forms/';
 import Switches from '../../views/Base/Switches/';
 import Tables from '../../views/Base/Tables/';
 import Tabs from '../../views/Base/Tabs/';
+import Body from '../../views/Base/Body/'
 import Breadcrumbs from '../../views/Base/Breadcrumbs/';
 import Carousels from '../../views/Base/Carousels/';
 import Collapses from '../../views/Base/Collapses/';
@@ -74,6 +75,7 @@ class Full extends Component {
                 <Route path="/base/switches" name="Swithces" component={Switches}/>
                 <Route path="/base/tables" name="Tables" component={Tables}/>
                 <Route path="/base/tabs" name="Tabs" component={Tabs}/>
+                <Route path="/base/body" name="Body" component={Body}/>
                 <Route path="/base/breadcrumbs" name="Breadcrumbs" component={Breadcrumbs}/>
                 <Route path="/base/carousels" name="Carousels" component={Carousels}/>
                 <Route path="/base/collapses" name="Collapses" component={Collapses}/>

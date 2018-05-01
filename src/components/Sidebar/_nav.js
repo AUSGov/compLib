@@ -73,6 +73,10 @@ export default {
       url: '/base',
       children: [
         {
+          name: 'Body',
+          url: '/base/body',
+        },
+        {
           name: 'Breadcrumbs',
           url: '/base/breadcrumbs',
         },

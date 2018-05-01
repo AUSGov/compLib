@@ -68,7 +68,7 @@
         .nav-item {
             margin: 0 1rem;
             .nav-link {
-                border-radius: 28px;
+                border-radius: 0px;
                 i {
                     display: none;
                 }
@@ -93,16 +93,17 @@
     }
 }
 
+
 // Buttons
 
 .bga-btn {
     color: $bga-primary;
     background: transparent;
     border: 1px solid $bga-primary;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     line-height: 1;
-    letter-spacing: 0.2px;
+    letter-spacing: -0.2px;
     text-decoration: none;
     height: 48px;
     margin: 0 2rem 2rem 0;
@@ -116,12 +117,13 @@
     &.btn-primary {
         padding-right: 32px;
         padding-left: 32px;
-        border-radius: 22px;
+        border-radius: 6px;
         color: $white;
         background: $bga-primary-interactive;
+        border: 1px solid $bga-primary-interactive;
         &:hover {
-            background: $bga-primary;
-            border: 1px solid $bga-primary;
+            background: $bga-primary-hover;
+            border: 1px solid $bga-primary-hover;
         }
         &:focus {
             box-shadow: 0 0 10px 0 $bga-primary-interactive;
@@ -137,7 +139,7 @@
     &.btn-default {
         padding-right: 32px;
         padding-left: 32px;
-        border-radius: 22px;
+        border-radius: 6px;
         &:hover {
             color: $white;
             background: $bga-primary;
@@ -145,6 +147,7 @@
             border: 1px solid $bga-primary;
         }
         &:focus {
+            color: $white;
             box-shadow: 0 0 10px 0 $bga-primary-interactive;
             background: $bga-primary;
 
@@ -158,22 +161,31 @@
     } 
     &.btn-tertiary {
         border-color: transparent;
-        height: 28px;
+        height: 32px;
         border-radius: 2px;
         &:hover {
             color: $bga-primary;
             text-decoration: underline;
             background-color: $white;
         }
+        &:focus {
+            box-shadow: 0 0 10px 0 $bga-primary-interactive;
+            background-color: $white;
+        }
+        &:disabled {
+            color: $light-grey;
+            background: transparent;
+            cursor: not-allowed;
+        }
     }
 }
 .btn-primary:not(:disabled):not(.disabled):active, .btn-default:not(:disabled):not(.disabled):active {
-    background-color: $black;
+    background-color: $bga-primary-active;
     color: $white;
-    border-color: $black;
+    border-color: $bga-primary-active;
 }
 .btn-link {
-    transition: all .3s ease;
+    transition: all .3s ease;   
     color: $black;
     line-height: 1.5;
     .BgaIcon {
@@ -213,5 +225,23 @@
     }
     100% {
         opacity: 1;
+    }
+}
+body p {
+    font-size: 18px;
+}
+
+a {
+    color: $bga-primary-interactive;
+    text-decoration: underline;
+    &:hover {
+        color: $bga-primary-hover;
+        text-decoration: none;
+    }
+}
+.external-link {
+    .fa {
+        padding-left: 4px; 
+        font-size: 14px;
     }
 }
