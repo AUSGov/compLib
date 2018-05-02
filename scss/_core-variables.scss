@@ -1,77 +1,76 @@
 // core overrides
 
-
 // ---------------- COLOURS ---------------- //
 
 // --- Brand Colours --- //
 
 // BGA Primary
-$bga-primary:                       #254f90;
+$bga-primary:                       #254F90;
 $bga-primary-interactive:           #4569A0;
-$bga-primary-tint1:                 #b3c2d8;
-$bga-primary-tint2:                 #eff4fb;
+$bga-primary-tint1:                 #B3C2D8;
+$bga-primary-tint2:                 #EFF4FB;
 $bga-primary-hover:                 #1F4176;
 $bga-primary-active:                #18335C;
 
 // BGA Secondary
-$bga-secondary:                     #e8bd4f;
-$bga-secondary-interactive:         #edca72;
-$bga-secondary-tint1:               #f3dea7;
-$bga-secondary-tint2:               #fcf4e3;
+$bga-secondary:                     #E8BD4F;
+$bga-secondary-interactive:         #EDCA72;
+$bga-secondary-tint1:               #F3DEA7;
+$bga-secondary-tint2:               #FCF4E3;
 
 
 // --- Category Colours --- //
 
 // Teal
-$teal:                              #29a0a0;
-$teal-interactive:                  #54b3b3;
-$teal-tint1:                        #a9d9d9;
-$teal-tint2:                        #dff1f1;
+$teal-primary:                      #29A0A0;
+$teal-interactive:                  #54B3B3;
+$teal-tint1:                        #A9D9D9;
+$teal-tint2:                        #DFF1F1;
 
 // Blue
-$blue:                              #3e96ff;
-$blue-interactive:                  #5ba6ff;
-$blue-tint1:                        #bedcff;
-$blue-tint2:                        #ebf4ff;
+$blue-primary:                      #3E96FF;
+$blue-interactive:                  #5BA6FF;
+$blue-tint1:                        #BEDCFF;
+$blue-tint2:                        #EBF4FF;
 
 // Orange
-$orange:                            #ff4b23;
-$orange-interactive:                #ff6f4f;
-$orange-tint1:                      #ffb7a7;
-$orange-tint2:                      #ffe4de;
+$orange-primary:                    #FF4B23;
+$orange-interactive:                #FF6F4F;
+$orange-tint1:                      #FFB7A7;
+$orange-tint2:                      #FFE4DE;
 
 // Slate
-$slate:                             #293f5c;
-$slate-interactive:                 #495c74;
-$slate-tint1:                       #aab2c3;
-$slate-tint2:                       #dfe2ee;
+$slate-primary:                     #293F5C;
+$slate-interactive:                 #495C74;
+$slate-tint1:                       #AAB2C3;
+$slate-tint2:                       #DFE2EE;
 
 // Purple
-$purple:                            #5b43d0;
-$purple-interactive:                #735fd7;
-$purple-tint1:                      #bdb4ec;
-$purple-tint2:                      #f1eefa;
+$purple-primary:                    #5B43D0;
+$purple-interactive:                #735FD7;
+$purple-tint1:                      #BDB4EC;
+$purple-tint2:                      #F1EEFA;
 
 // Magenta
-$magenta:                           #a42079;
-$magenta-interactive:               #b64d94;
-$magenta-tint1:                     #dfb1d0;
-$magenta-tint2:                     #ffecf3;
+$magenta-primary:                   #A42079;
+$magenta-interactive:               #B64D94;
+$magenta-tint1:                     #DFB1D0;
+$magenta-tint2:                     #FFECF3;
 
 
 // -- Neutrals -- //
 
 // Greys
 $darkest-grey:                      #505050;
-$darker-grey:                       #7d7d7d;
-$dark-grey:                         #a7a7a7;
-$light-grey:                        #c7c7c7;
-$lighter-grey:                      #d8d8d8;
-$lightest-grey:                     #ebebeb;
+$darker-grey:                       #7D7D7D;
+$dark-grey:                         #A7A7A7;
+$light-grey:                        #C7C7C7;
+$lighter-grey:                      #D8D8D8;
+$lightest-grey:                     #EBEBEB;
 $background-grey:                   #f5f5f5;
 
 // Blues
-$header-bg:                         #f0f4fa;
+$header-bg:                         #F0F4FA;
 
 
 // --- Alerts --- //
@@ -79,22 +78,18 @@ $header-bg:                         #f0f4fa;
 // Good
 $green:                             #368635;
 $green-interactive:                 #219520;
-$green-tint1:                       #a6d5a6;
-$green-tint2:                       #e8f4e8;
+$green-tint1:                       #A6D5A6;
+$green-tint2:                       #E8F4E8;
 
 // Not so good
-$red:                               #e22c2a;
-$red-interactive:                   #e75755;
-$red-tint1:                         #f5b5b5;
-$red-tint2:                         #fce9e9;                      
+$red:                               #E22C2A;
+$red-interactive:                   #E75755;
+$red-tint1:                         #F5B5B5;
+$red-tint2:                         #FCE9E9;                      
 
 
 // --- Text --- //
-$matte-text:                         #383838;
-
-
-
-
+$matte-text:                        #383838;
 
 // Navbar
 

@@ -1,0 +1,212 @@
+// BG COLOUR PALETTE PAGE
+//-----------------------
+// Ensure this page is kept up-to-date as it is the source of truth
+
+
+// BGA Primary
+.bg-bga-primary {
+    color: $white;
+    background-color: $bga-primary;
+}
+.bg-bga-primary-interactive {
+    color: $white;
+    background-color: $bga-primary-interactive;
+}
+.bg-bga-primary-tint1 {
+    background-color: $bga-primary-tint1;
+}
+.bg-bga-primary-tint2 {
+    background-color: $bga-primary-tint2;
+}
+.bg-bga-primary-hover {
+    background-color: $bga-primary-hover;
+}
+.bg-bga-primary-active {
+    background-color: $bga-primary-active;
+}
+
+// BGA Secondary
+.bg-bga-secondary {
+    background-color: $bga-secondary;
+}
+.bg-bga-secondary-interactive {
+    background-color: $bga-secondary-interactive;
+}
+.bg-bga-secondary-tint1 {
+    background-color: $bga-secondary-tint1;
+}
+.bg-bga-secondary-tint2 {
+    background-color: $bga-secondary-tint2;
+}
+
+// --- Category Colours --- //
+
+// Teal
+.bg-bga-teal {
+    color: $white;
+    background-color: $teal-primary;
+}
+.bg-bga-teal-interactive {
+    color: $white;
+    background-color: $teal-interactive;
+}
+.bg-bga-teal-tint1 {
+    background-color: $teal-tint1;
+}
+.bg-bga-teal-tint2 {
+    background-color: $teal-tint2;
+}
+
+// Blue
+.bg-bga-blue {
+    color: $white;
+    background-color: $blue-primary;
+}
+.bg-bga-blue-interactive {
+    color: $white;
+    background-color: $blue-interactive;
+}
+.bg-bga-blue-tint1 {
+    background-color: $blue-tint1;
+}
+.bg-bga-blue-tint2 {
+    background-color: $blue-tint2;
+}
+
+// Orange
+.bg-bga-orange {
+    color: $white;
+    background-color: $orange-primary;
+}
+.bg-bga-orange-interactive {
+    color: $white;
+    background-color: $orange-interactive;
+}
+.bg-bga-orange-tint1 {
+    background-color: $orange-tint1;
+}
+.bg-bga-orange-tint2 {
+    background-color: $orange-tint2;
+}
+
+// Slate
+.bg-slate {
+    color: $white;
+    background-color: $slate-primary;
+}
+.bg-slate-interactive {
+    color: $white;
+    background-color: $slate-interactive;
+}
+.bg-slate-tint1 {
+    background-color: $slate-tint1;
+}
+.bg-slate-tint2 {
+    background-color: $slate-tint2;
+}
+
+// Purple
+.bg-bga-purple {
+    color: $white;
+    background-color: $purple-primary;
+}
+.bg-bga-purple-interactive {
+    color: $white;
+    background-color: $purple-interactive;
+}
+.bg-bga-purple-tint1 {
+    background-color: $purple-tint1;
+}
+.bg-bga-purple-tint2 {
+    background-color: $purple-tint2;
+}
+
+// Magenta
+.bg-magenta {
+    color: $white;
+    background-color: $magenta-primary;
+}
+.bg-magenta-interactive {
+    color: $white;
+    background-color: $magenta-interactive;
+}
+.bg-magenta-tint1 {
+    background-color: $magenta-tint1;
+}
+.bg-magenta-tint2 {
+    background-color: $magenta-tint2;
+}
+
+// -- Neutrals -- //
+.bg-black {
+    color: $white;
+    background: $black;
+}
+.bg-white {
+    background: $white;
+}
+
+// Greys
+.bg-darkest-grey {
+    color: $white;
+    background-color: $darkest-grey;
+}
+.bg-darker-grey {
+    color: $white;
+    background-color: $darker-grey;
+}
+.bg-dark-grey {
+    color: $white;
+    background-color: $dark-grey;
+}
+.bg-light-grey {
+    background-color: $light-grey;
+}
+.bg-lighter-grey {
+    background-color: $lighter-grey;
+}
+.bg-lightest-grey {
+    background-color: $lightest-grey;
+}
+.bg-background-grey {
+    background-color: $background-grey;
+}
+
+// Blues
+.bg-header-blue {
+    background-color: $header-bg;
+}
+
+// --- Alerts --- //
+
+// Good
+.bg-bga-green {
+    color: $white;
+    background-color: $green;
+}
+.bg-green-interactive {
+    color: $white;
+    background-color: $green-interactive;
+}
+.bg-green-tint1 {
+    background-color: $green-tint1;
+}
+.bg-green-tint2 {
+    background-color: $green-tint2;
+}
+
+// Not so good
+.bg-bga-red {
+    color: $white;
+    background-color: $red;
+}
+.bg-red-interactive {
+    color: $white;
+    background-color: $red-interactive;
+}
+.bg-red-tint1 {
+    background-color: $red-tint1;
+}
+.bg-red-tint2 {
+    background-color: $red-tint2;
+}                  
