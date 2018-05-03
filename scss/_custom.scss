@@ -4,9 +4,9 @@
 .standard-header {
     padding: 5rem 0 3.875rem;
     h1 {
-        font-size: 3.5rem;
+        font-size: 5.063rem;
         font-weight: 600;
-        line-height: 4.125rem;
+        line-height: 1.2;
         color: $bga-primary;
     }
     .version {
@@ -17,31 +17,47 @@
         }
     }
 }
-
+h2 {
+    font-size: 3.375rem;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+}
+h3 {
+    font-size: 2.25rem;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    padding-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
+h5 {
+    font-size: 1.250rem;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
 // Content
 .content {
-    h2 {
-        font-size: 1.250rem;
-        font-weight: 600;
-        letter-spacing: 0.2px;
-        padding-top: 2rem;
-        margin-bottom: 1.5rem;
-    }
-    h3 {
-        font-size: 1.125rem;
-        font-weight: 600;
-        letter-spacing: 0.2px;
-        padding-top: 2rem;
-        margin-bottom: 1.5rem;
-    }
     p {
-        font-size: 20px;
+        font-size: 1.250rem;
     }
     .intro {
-        font-size: 1.250rem;
+        font-size: 1.5rem;
+        border-left: 6px solid $bga-primary-tint2;
+        padding: 1rem 2rem;
+        font-style: italic;
+        margin-left: -36px;
     }
     .demo-block {
         padding: 2rem 0;
+    }
+    hr {
+        margin-bottom: 2rem;
     }
 }
 

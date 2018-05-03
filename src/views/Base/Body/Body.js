@@ -17,7 +17,7 @@ class Body extends Component {
               <p className="intro">Body is a collection of styles that apply to common content elements, these styles help users read page body content more easily.</p>
 
 {/* -- Body Paragraph -- */}
-              <h2>Paragraph styles</h2>
+              <h3>Paragraph styles</h3>
               <p>Example paragraph. <a href="#" >Internal link</a> and an <a href="#" className="external-link">external link<i className="fa fa-external-link" aria-hidden="true"></i></a>.</p>
               <p>Royal as to was written due was of it contribution steadily people towards check to up we've the are to in read. Be in <a href="#" >few average</a> who impasse. To trying sleep were himself the months get feel table he the tag the their arrive woman's have and her time not.</p>
             </div>
