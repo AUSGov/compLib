@@ -41,10 +41,27 @@ h5 {
     font-weight: 600;
     letter-spacing: 0.2px;
 }
+
+a {
+    color: $link;
+    text-decoration: none;
+    &:hover {
+        color: $bga-primary-hover;
+        text-decoration: underline;
+    }
+}
+.external-link {
+    .fa {
+        padding-left: 4px; 
+        font-size: 14px;
+    }
+}
+
 // Content
 .content {
     p {
         font-size: 1.250rem;
+        color: $matte-text;
     }
     .intro {
         font-size: 1.5rem;
@@ -248,19 +265,6 @@ h5 {
 }
 
 
-a {
-    color: $bga-primary-interactive;
-    text-decoration: underline;
-    &:hover {
-        color: $bga-primary-hover;
-        text-decoration: none;
-    }
-}
-.external-link {
-    .fa {
-        padding-left: 4px; 
-        font-size: 14px;
-    }
-}
+
 
 
