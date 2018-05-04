@@ -46,7 +46,7 @@ a {
     color: $link;
     text-decoration: none;
     &:hover {
-        color: $bga-primary-hover;
+        color: $link-hover;
         text-decoration: underline;
     }
 }
