@@ -1,6 +1,6 @@
 {
   "name": "bga-design-system",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "BA Design System Component Library",
   "author": "Joey Sephora",
   "homepage": "https://ausgov.github.io/compLib/",
@@ -38,14 +38,15 @@
     "font-awesome": "4.7.0",
     "history": "4.7.2",
     "jquery": "3.3.1",
-    "npm": "6.0.0",
+    "npm": "^6.0.0",
+    "popper.js": "^1.14.3",
     "react": "16.2.0",
     "react-chartjs-2": "2.7.0",
     "react-dom": "16.2.0",
     "react-iframe": "^1.1.0",
     "react-router-dom": "4.2.2",
     "react-transition-group": "2.2.1",
-    "reactstrap": "5.0.0-alpha.4",
+    "reactstrap": "6.0.1",
     "simple-line-icons": "2.4.1"
   },
   "scripts": {

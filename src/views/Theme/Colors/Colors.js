@@ -8,7 +8,7 @@ class Colors extends Component {
       <div className="animated fadeIn">
         <Row>
           <Col>
-            <PageHeader heading="Colour" date="03/05/2018" />
+            <PageHeader heading="Colour" date="07/05/2018" />
           </Col>
         </Row> 
 
@@ -110,10 +110,10 @@ class Colors extends Component {
                 <Row>
                   <div className="col-md-6">
                     <h5>Dark Neutrals</h5>
-                    <div className="p-3 bg-black">black <span className="float-right">#000000</span></div>
                     <div className="p-3 bg-darkest-grey">darkest grey <span className="float-right">#505050</span></div>
                     <div className="p-3 bg-darker-grey">darker grey <span className="float-right">#7D7D7D</span></div>
                     <div className="p-3 bg-dark-grey">dark grey <span className="float-right">#A7A7A7</span></div>
+                    <div className="p-3 bg-grey">grey <span className="float-right">#CCCCCC</span></div>
                   </div>
 
                   <div className="col-md-6">
@@ -147,6 +147,22 @@ class Colors extends Component {
                   </div>
                 </Row>
               </div>
+              <hr></hr>
+
+              <h3>Others</h3>
+              <div className="demo-block">
+                <Row>
+                  <div className="col-md-6">
+                    <h5>Text</h5>
+                    <p>See <a href="#/base/body">paragraph style</a> for example usage</p>
+                    <p className="matte-text"><span className="p-3"></span> Matte text (#383838)</p>
+                    <p className="hyperlink"><span className="p-3"></span> Hyperlink default (#254F90)</p>
+                    <p className="hyperlink-hover"><span className="p-3"></span> Hyperlink mouseover (#0F54C3)</p>
+                    <p className="hyperlink-visited"><span className="p-3"></span> Visited hyperlink (#E8F4E8)</p>
+                  </div>
+                </Row>
+              </div>
+
             </div>
           </Col>
         </Row>          

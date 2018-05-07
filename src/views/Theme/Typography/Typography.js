@@ -12,12 +12,30 @@ class Typography extends Component {
           </Col>
         </Row>
         
+        <Row>
+          <Col>            
+            <div className="content">
+              <p className="intro">Typography is used to create clear hierarchies, useful organizations, and purposeful alignments that guide users through the product and experience. It is the core structure of any well designed interface.</p>
+              <h2 className="">Headings</h2>
+              <Row>
+                <div className="col-md-12">
+                  <h1>This is an H1 heading</h1>
+                </div>
+              </Row>
+            </div>
+          </Col>
+        </Row>
+
+
+
         <div className="card">
           <div className="card-header">
             Headings
           </div>
           <div className="card-body">
-            <p>Documentation and examples for Bootstrap typography, including global settings, headings, body text, lists, and more.</p>
+
+
+
             <table className="table">
               <thead>
                 <tr>

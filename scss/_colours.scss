@@ -159,6 +159,10 @@
     color: $white;
     background-color: $dark-grey;
 }
+.bg-grey {
+    color: $black;
+    background-color: $grey;
+}
 .bg-light-grey {
     background-color: $light-grey;
 }
@@ -210,3 +214,50 @@
 .bg-red-tint2 {
     background-color: $red-tint2;
 }                  
+
+// Text
+.matte-text {
+    color: $matte-text;
+    display: inline-block;
+    .p-3 {
+        height: 2rem;
+        width: 2rem;
+        margin-right: 1.5rem;
+        background-color: $matte-text;
+        float: left;
+    }
+}
+.hyperlink {
+    color: $link !important;
+    display: inline-block;
+    .p-3 {
+        height: 2rem;
+        width: 2rem;
+        margin-right: 1.5rem;
+        background-color: $link;
+        float: left;
+    }
+}
+.hyperlink-hover {
+    color: $link-hover !important;
+    text-decoration: underline;
+    display: inline-block;
+    .p-3 {
+        height: 2rem;
+        width: 2rem;
+        margin-right: 1.5rem;
+        background-color: $link-hover;
+        float: left;
+    }
+}
+.hyperlink-visited {
+    color: $link-visited !important;
+    display: inline-block;
+    .p-3 {
+        height: 2rem;
+        width: 2rem;
+        margin-right: 1.5rem;
+        background-color: $link-visited;
+        float: left;
+    }
+}
